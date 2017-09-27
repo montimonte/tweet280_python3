@@ -7,8 +7,7 @@ import sys;
 import re;
 import csv;
 import time;
-#Created by:Anthonys.io
-#Twitter.com/Tech
+
 with open("cookies.txt") as f:
 	for line in f:
 		if "_twitter_sess" in line:
